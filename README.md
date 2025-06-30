@@ -20,26 +20,8 @@ Transfer learning-based model (ResNet18)
 
 Easily extendable to other datasets and emotions
 
-🏗️ Project Structure
-bash
-Copy
-Edit
-.
-├── Models/
-│   └── emotion_cnn_final.pth      # Trained model weights
-├── Notebook/
-│   └── Model_Training.ipynb       # Jupyter Notebook for training
-├── src/
-│   ├── main.py                    # Real-time webcam inference script
-│   ├── Project details.txt       # Project summary
-│   ├── train_labels.csv          # Training labels
-│   └── test_labels.csv           # Test labels
-├── Dataset/
-│   └── ... (Train/Test images) 
-├── requirements/
-│   └── requirements.txt
-├── README.md
-└── .gitignore
+
+
 ⚙️ Installation
 bash
 Copy
@@ -54,6 +36,8 @@ Edit
 python src/main.py
 👀 Your webcam will open, and emotion predictions will appear live on the video feed.
 
+
+
 🧑‍💻 Training
 You can retrain or fine-tune the model using the notebook:
 
@@ -61,6 +45,8 @@ bash
 Copy
 Edit
 jupyter notebook Notebook/Model_Training.ipynb
+
+
 🎯 Future Work
 Add more emotion classes (e.g., contempt, excitement)
 
