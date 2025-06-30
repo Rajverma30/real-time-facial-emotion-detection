@@ -1,0 +1,12 @@
+During this project, I developed a robust emotion detection system using deep learning and computer vision techniques. We used the RAF-DB (Real-world Affective Faces Database), which contains images categorized into seven emotion classes: Surprise, Fear, Disgust, Happy, Sad, Angry, and Neutral. The data was carefully preprocessed, including converting images to grayscale, resizing them to 224×224 dimensions, and applying advanced augmentation techniques such as random horizontal flips, strong rotations, color jittering, affine transformations, and perspective distortion to increase the model's generalization capability.
+
+For model architecture, we implemented transfer learning by utilizing a pre-trained ResNet18 model. We modified its final fully connected layer to classify the seven emotion categories and fine-tuned it on our custom dataset. The model achieved a high validation accuracy of around 92%, demonstrating strong feature learning capabilities. After training, we saved the model weights and further integrated the model with real-time webcam feed using OpenCV. This allowed us to detect and display emotions live on video frames. We also analyzed the model's performance using a confusion matrix to verify its class-wise accuracy. Finally, we optimized the mapping of predicted labels to ensure correct emotion representation and implemented an efficient real-time prediction loop on GPU for smooth performance. Overall, this project provided hands-on experience in data preprocessing, deep CNN training, transfer learning, real-time application development, and model deployment.
+
+⭐ Highlights
+✅ Dataset — RAF-DB
+✅ Preprocessing — heavy augmentations, resizing, grayscale → 3 channels
+✅ Model — ResNet18 (transfer learning)
+✅ Accuracy — ~92%
+✅ Real-time camera integration (OpenCV)
+✅ Confusion matrix analysis
+✅ GPU acceleration
