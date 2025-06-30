@@ -3,12 +3,19 @@
 This project focuses on real-time facial emotion recognition using a webcam feed. The model is trained on the RAF-DB dataset and leverages transfer learning (ResNet18 backbone) to classify facial expressions into 7 different emotions with high accuracy.
 
 😄 Emotions Detected: 
+
 Surprise
+
 Fear
+
 Disgust
+
 Happy
+
 Sad
+
 Angry
+
 Neutral
 
 💡 Features: 
