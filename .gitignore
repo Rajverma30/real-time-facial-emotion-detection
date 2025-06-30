@@ -1,0 +1,23 @@
+# Ignore python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files if big (optional)
+Dataset/
+*.zip
+
+# Ignore model weights if too big (optional)
+*.pth
+
+# Ignore environment & IDE files
+.env
+*.env
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
