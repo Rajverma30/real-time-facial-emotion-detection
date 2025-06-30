@@ -1,8 +1,8 @@
-🚀 Real-Time Facial Emotion Detection
-📄 Overview
+🚀 Real-Time Facial Emotion Detection: 
+📄 Overview: 
 This project focuses on real-time facial emotion recognition using a webcam feed. The model is trained on the RAF-DB dataset and leverages transfer learning (ResNet18 backbone) to classify facial expressions into 7 different emotions with high accuracy.
 
-😄 Emotions Detected
+😄 Emotions Detected: 
 Surprise
 Fear
 Disgust
@@ -11,7 +11,7 @@ Sad
 Angry
 Neutral
 
-💡 Features
+💡 Features: 
 Real-time emotion detection from webcam
 
 High accuracy (~92% on test set)
@@ -22,7 +22,8 @@ Easily extendable to other datasets and emotions
 
 
 
-⚙️ Installation
+⚙️ Installation: 
+
 bash
 Copy
 Edit
@@ -38,7 +39,8 @@ python src/main.py
 
 
 
-🧑‍💻 Training
+🧑‍💻 Training:
+
 You can retrain or fine-tune the model using the notebook:
 
 bash
@@ -47,14 +49,16 @@ Edit
 jupyter notebook Notebook/Model_Training.ipynb
 
 
-🎯 Future Work
+🎯 Future Work:
+
 Add more emotion classes (e.g., contempt, excitement)
 
 Support for multi-face detection in the same frame
 
 Integration with audio (paralanguage) emotion cues
 
-🙏 Credits
+🙏 Credits:
+
 Dataset: RAF-DB (Real-world Affective Faces Database)
 
 Libraries: PyTorch, OpenCV, torchvision, PIL
