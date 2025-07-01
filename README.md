@@ -1,5 +1,7 @@
 🚀 Real-Time Facial Emotion Detection: 
-📄 Overview: 
+
+📄 Overview:
+
 This project focuses on real-time facial emotion recognition using a webcam feed. The model is trained on the RAF-DB dataset and leverages transfer learning (ResNet18 backbone) to classify facial expressions into 7 different emotions with high accuracy.
 
 😄 Emotions Detected: 
@@ -70,5 +72,5 @@ Dataset: RAF-DB (Real-world Affective Faces Database)
 
 Libraries: PyTorch, OpenCV, torchvision, PIL
 
-🌟 Let's Connect
+🌟 Let's Connect: 
 Feel free to connect on www.linkedin.com/in/raj-verma-485900255 or open an issue to discuss improvements or collaborations.
